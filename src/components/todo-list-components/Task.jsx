@@ -1,13 +1,13 @@
 import React from "react";
 import "../../App.css";
 
-const Task = () => {
+const Task = ({ id, title, status, handleDelete, handleDone }) => {
   return (
     <div className="__task__">
-      <div>Task</div>
+      <div>{title}</div>
       <div className="__task_buttons__">
-        <p className="__xButton">X</p>
-        <p className="__vButton">V</p>
+        <button onClick={() => handleDone(id)}>Done</button>
+        <button onClick={() => handleDelete(id)}>Delete</button>
       </div>
     </div>
   );

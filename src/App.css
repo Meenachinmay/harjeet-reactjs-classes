@@ -44,7 +44,7 @@
 
 
 .task__list {
-  border: 1px solid red;
+  border: 0.5px solid lightgray;
   height: 400px;
   padding: 10px;
   text-align: start;
@@ -57,12 +57,15 @@
   border: 1px solid white;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .__task_buttons__ {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 10px;
@@ -79,3 +82,12 @@
   padding: 5px;
   background-color: gray;
 }
+
+.__task_input__ {
+  padding: 10px;
+  width: 300px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
