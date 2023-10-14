@@ -1,0 +1,36 @@
+HTML tags ->
+<> -> opening tag
+</> -> closing tag
+<.../> -> self closing tag
+
+To use every HTML tag we have to follow the HTML writing syntax.
+<tag name>....<tag name/>
+Example -> <button></button>, <table></table>, <li></li>, <ul></ul>, <input />, <textarea></textarea>
+
+We can pass properties to these elements to modify them even more or to style them or to attach events to them.
+
+
+Events -> events are actions we want to perform our HTML elements. (in reactjs we are talking about this)
+
+What is the way of passing properties to these HTML elements ->
+because we are doing reactjs where (HTML + javascript => JSX) we can do this inline and we do not have to attach a separate JAVASCRIPT file
+because the file we are working in is a Javascript file.
+
+Type of Events -> commonaly:
+    onClick event -> attach a click listener => it waits for user to click the item / element / text / button / image
+    we can put this on almost any element.
+
+    onChange event -> attach a change listener => it waits for user to make some changes
+    we mainly attach it with inputs (text input, dropdown (select options menu), checkbox etc)
+
+    onMouseEnter, onMouseleave, onMouseMove => all these mouse's cursor related events.
+
+2nd we can pass CSS properties in these JSX element. (JSX element is perfect name to call because they are not pure HTML elements anymore)
+
+only JSX ->
+    <button>Login</button>
+    NOTE: we can pass properties only in opening tag.
+    inline styling
+    <button style={{ color: 'red', fontSize: '10px', border: '1px solid white', }}>Login</button>
+
+property: 'value'
