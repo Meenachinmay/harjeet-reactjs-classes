@@ -4,7 +4,7 @@ import "./learning.css";
 
 const LearnCSSAndHTML = () => {
   function showMyNameOnClick(name) {
-    console.log(name);
+    // console.log(name);
   }
   return (
     <div

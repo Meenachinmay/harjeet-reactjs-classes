@@ -1,4 +1,5 @@
 import LearnCSSAndHTML from './components/learning-components/LearnCSSAndHTML'
+import Description from './components/profile-components/Description'
 
 import PrintMyNameComponent from './components/testing-components/PrintMyNameComponent'
 import Todo from './components/todo-list-components/Todo'
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <PrintMyNameComponent /> */}
       {/* <Todo /> */}
-      <LearnCSSAndHTML />
+      {/* <LearnCSSAndHTML /> */}
+      <Description />
     </>
   )
 }
